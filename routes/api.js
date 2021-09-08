@@ -1,15 +1,9 @@
 var express = require('express');
 var router = express.Router();
+var PublicController = require('../Controllers/PublicController');
+var UserController = require('../Controllers/UserController');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.json({welcome: 'Welcome to the OpenSwap Community API'})
-});
-
-
-/* GET users listing. */
-router.get('/users', function(req, res, next) {
-  res.json({users: []});
-});
+router.get('/', PublicController.index);
+router.get('/users', UserController.index);
 
 module.exports = router;
