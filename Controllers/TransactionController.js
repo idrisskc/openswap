@@ -28,4 +28,4 @@ class TransactionController {
 
 }
 
-module.exports = TransactionController
+module.exports =new TransactionController()

@@ -6,4 +6,3 @@ class CryptoCurrencyController {
 }
 
 module.exports = new CryptoCurrencyController()
-
