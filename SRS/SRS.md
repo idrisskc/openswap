@@ -5,16 +5,15 @@
 ![openswap](
    https://xcritical.com/wp-content/uploads/2020/11/types-of-cryptocurrency-exchanges.jpg "The Openswap "
 )
+## 1 INTRODUCTION 
 
-                   1. INTRODUCTION 
-
-1.1 PURPOSE
+### 1.1 PURPOSE
 
 The purpose of this platform is to enable and facilitate the purchase, sale, and transfer of cryptocurrencies where participants can freely choose who to sell or buy from depending on their proposed rates.
 
 ---
 
-1.2 DOCUMENT CONVENTIONS
+###  1.2 DOCUMENT CONVENTIONS
 
 |Abbrevation|Meaning                  | 
 |---        |--------                 |
@@ -24,20 +23,20 @@ The purpose of this platform is to enable and facilitate the purchase, sale, and
 
 ---
 
-1.3 INTENDED AUDIENCE AND READING SUGGESTIONS
+###  1.3 INTENDED AUDIENCE AND READING SUGGESTIONS
 
 This project is an open-source project, and it is free for anybody who wishes to sell and buy crypto
 
 ---
 
-1.4 PROJECT SCOPE
+###  1.4 PROJECT SCOPE
 
 Crypto swap is a peer-to-peer cryptocurrency marketplace where buyers and sellers are connected for business, This platform provides a variety of rates for crypto sellers and well-secured payment methods, 
 Crypto-swap is 100% decentralized since no one is imposing a price or rates on anyone and the seller can loop through a list of buyers to choose what is best for him.  
 
 ---
 
-1.5 REFERENCES
+###  1.5 REFERENCES
 
 |Mr. Jam Stanley| The Co-founder     |
 |---------------|---------------     |
@@ -46,9 +45,9 @@ Crypto-swap is 100% decentralized since no one is imposing a price or rates on a
 
 ---
 
-                 2. OVERALL DESCRIPTION
+## 2. OVERALL DESCRIPTION
 
- 2.1 PRODUCT PERSPECTIVE                
+ ###  2.1 PRODUCT PERSPECTIVE                
 
  The crypto-swap trading system stores the following information.
 
@@ -77,7 +76,7 @@ This information may be used for keeping the records of the customer for any eme
 
 ---
 
-2.2 PRODUCT FEATURES
+###  2.2 PRODUCT FEATURES
 
 The major features of the crypto-swap database system as shown in below entity-relationship model (ER model) 
 
@@ -85,7 +84,7 @@ The major features of the crypto-swap database system as shown in below entity-r
 
 ---
 
-2.3 USER CLASS and CHARACTERISTICS
+###  2.3 USER CLASS and CHARACTERISTICS
 
 Users of the system should be able to retrieve information from the database such as  
 - best rate trader
@@ -131,7 +130,7 @@ A seller will have access to sellers functions, while a buyer will have access t
 
 ---
 
-2.4 OPERATING ENVIRONMENT
+###  2.4 OPERATING ENVIRONMENT
 
 
 The operating environment for this crypto-swap system is as listed below
@@ -145,11 +144,11 @@ The operating environment for this crypto-swap system is as listed below
 
 ---
 
-2.5 DESIGN and IMPLEMENTATION CONSTRAINTS
+###  2.5 DESIGN and IMPLEMENTATION CONSTRAINTS
  
 ---
 
-2.6 ASSUMPTION DEPENDENCIES
+###  2.6 ASSUMPTION DEPENDENCIES
 
 - A dispute can be awarded to the client base on the competent of evidence provided by the client (as requested by the moderator)
 
@@ -161,15 +160,15 @@ The operating environment for this crypto-swap system is as listed below
 
 ---
 
-             3. SYSTEM FEATURES
+## 3. SYSTEM FEATURES
 
-3.1 DESCRIPTION AND PRIORITY
+###  3.1 DESCRIPTION AND PRIORITY
 
 - The cryptocurrency exchange platform system facilitates the trading of cryptocurrencies for other assets, including digital and fiat currencies. This platform acts as an intermediary between a buyer and a seller. With the increase in crypto-trading, there is a high number of traders who have no reliable and safe platform for the exchange of their commodities, hence this project is of high priority.
 
 ---
 
-3.2 STIMULUS/RESPONSE SEQUENCE
+###  3.2 STIMULUS/RESPONSE SEQUENCE
 
 - Displays a list of crypto sellers and their rates
 - Displays a buy now on a particular deal of interest now
@@ -177,47 +176,47 @@ The operating environment for this crypto-swap system is as listed below
 
 ---
 
-3.3 FUNCTIONAL REQUIREMENTS:
+###  3.3 FUNCTIONAL REQUIREMENTS:
 
 
-3.3.1 system architecture
+###  3.3.1 system architecture
 
 ---
 
-3.4 BEHAVIOURAL REQUIREMENTS:
+###  3.4 BEHAVIOURAL REQUIREMENTS:
 Behavioral requirements of the system are described using a use case view. The Following use case diagrams summarize the functional and behavioral requirements of the cryptocurrency exchange platform system
 
 ---
 
-3.4.1 Use case diagram of the Crypto Exchange Platform
+###  3.4.1 Use case diagram of the Crypto Exchange Platform
 
 ![ER](../SRS/images/uml.jpg)
 
 ---
 
-3.4.2  System architecture of the Crypto Exchange Platform
+###  3.4.2  System architecture of the Crypto Exchange Platform
 
 ![ER](../SRS/images/CryptoProjectBasicArchitecture(4).jpg)
 
 
 ---
-             4. EXTERNAL INTERFACE REQUIREMENTS
+## 4. EXTERNAL INTERFACE REQUIREMENTS
 
-4.1 USER INTERFACES
+###  4.1 USER INTERFACES
 
 Front-end software: ViewJs.
 Back-end software: MySQL, Nodejs, Expressjs.
 
 ---
 
-4.2 HARDWARE INTERFACES
+###  4.2 HARDWARE INTERFACES
 
 Cross-platform:- Windows, Linux, macOS etc.
 A browser that supports HTML & Javascript.
 
 ---
 
-4.3 SOFTWARE INTERFACES
+###  4.3 SOFTWARE INTERFACES
 
 
 |Software used| Description|
@@ -227,16 +226,16 @@ A browser that supports HTML & Javascript.
 
 ---
 
-4.4 COMMUNICATION INTERFACES
+###  4.4 COMMUNICATION INTERFACES
 
 This project supports all types of web browsers. 
 
 ---
 
-             5 NON-FUNCTIONAL REQUIREMENTS:
+## 5 NON-FUNCTIONAL REQUIREMENTS:
 
              
-5.1 SAFETY/SECURITY REQUIREMENTS
+###  5.1 SAFETY/SECURITY REQUIREMENTS
 
 - Whenever a transaction happens, a new block (a block records some or all of the most recent transactions that have not yet entered any previous blocks) will be added with the details of that transaction like date, time, the currency amount in the first section of the block. In the second section of the block, there will be information about the participants(name, address, email of the buyer and the seller) of that transaction. 
 - Automatic login is not allowed.
