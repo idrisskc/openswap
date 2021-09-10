@@ -28,10 +28,14 @@ class UserController {
                 limit: null,
                 verificationStatus:true 
             }
-        }
-        )
+        })
     }
-    
+    logout(req,res,next){
+        res.json({
+        success: true,
+        message:"User logged out"
+        })
+    }
 }
 
 module.exports = new UserController()

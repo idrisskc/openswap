@@ -9,5 +9,4 @@ module.exports = {
         res.json({
             success: true, data: [], message: "Purchase confirmed"        })
     }
-    
 };
