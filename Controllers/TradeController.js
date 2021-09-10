@@ -6,6 +6,8 @@ module.exports = {
         res.json({success: true, data: [], message: "Trade successfully saved"})   
     },
     confirmTrade: (res, req, next) => {
-
+        res.json({
+            success: true, data: [], message: "Purchase confirmed"        })
     }
+    
 };
