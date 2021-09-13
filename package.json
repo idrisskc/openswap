@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "test":"node ./app.test.js",
     "start": "node ./public/serve",
     "dev": "nodemon ./public/serve"
   },
