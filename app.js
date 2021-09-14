@@ -32,6 +32,30 @@ var connection = typeorm.createConnection({
     console.log(err);
 })
 
+// connection.connect(function(err) {
+//     if (err) {
+//       return console.error(`error ${err.message}`);
+//     }
+//     console.log('Connected to the MySQL server.');
+//     let createUser = `create table if not exists username(
+//         id int primary key auto_increment,
+//         title varchar(255)not null,
+//         completed tinyint(1) not null default 0
+//     )`;
+
+//         connection.query(createUser, function(err, results, fields) {
+//         if (err) {
+//         console.log(err.message);
+//         }
+//         });
+
+//         connection.end(function(err) {
+//         if (err) {
+//         return console.log(err.message);
+//         }
+//         });
+//     });
+
 var app = express();
 
 app.use(logger('dev'));
